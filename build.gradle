@@ -1,5 +1,5 @@
 ext {
-     gdxVersion='1.7.1'
+     gdxVersion='1.9.2'
 }
 
 buildscript {
@@ -24,7 +24,7 @@ project(":libgdx-cardboard-core") {
 	apply plugin: 'signing'
 	apply plugin: 'maven'
 
-	group = 'com.github.yangweigbh'
+	group = 'com.github.nik-vitaly'
 	version = '0.2'
 
 	dependencies {
@@ -55,12 +55,12 @@ project(":libgdx-cardboard-core") {
 		        packaging 'jar'
 		        // optionally artifactId can be defined here 
 		        description 'library help developing cardboard app based on libgdx'
-		        url 'https://github.com/yangweigbh/Libgdx-CardBoard-Extension'
+		        url 'https://github.com/nik-vitaly/Libgdx-CardBoard-Extension'
 
 		        scm {
-		          connection 'scm:git:https://github.com/yangweigbh/Libgdx-CardBoard-Extension.git'
-		          developerConnection 'scm:git:https://github.com/yangweigbh'
-		          url 'https://github.com/yangweigbh/Libgdx-CardBoard-Extension.git'
+		          connection 'scm:git:https://github.com/nik-vitaly/Libgdx-CardBoard-Extension.git'
+		          developerConnection 'scm:git:https://github.com/nik-vitaly'
+		          url 'https://github.com/nik-vitaly/Libgdx-CardBoard-Extension.git'
 		        }
 
 		        licenses {
